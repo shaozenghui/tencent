@@ -23,6 +23,11 @@ Page({
                 lfrom: "en_US",
                 lto: "zh_CN",
             })
+        }else{
+          this.setData({
+            lfrom: "zh_CN",
+            lto: "en_US",
+          })
         }
     },
     onReady: function (e) {
