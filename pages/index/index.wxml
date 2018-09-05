@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <view class='container'>
     <view class='title'>
         <text>英文</text>
@@ -15,4 +16,23 @@
     </view>
     <audio src="{{src}}" id="myAudio"></audio>
     <audio src="{{src2}}" id="myAudio2"></audio>
+=======
+<view class='container'>
+    <view class='title'>
+        <text>英文</text>
+        <switch checked bindchange="switch1Change" color="#3da8f5" />
+        <text>中文</text>
+        <button bindtap="translate">翻译</button>
+    </view>
+    <view class='e_a'>
+        <textarea value='{{froms}}' placeholder='请输入你要翻译的内容' maxlength="-1" auto-focus class='content' bindinput='change'>
+            <image src='../../images/laba.png' class='pron' bindtap="audioPlay2"></image>
+        </textarea>
+        <view class='content'>{{tos}}
+            <image src='../../images/laba.png' class='pron' bindtap="audioPlay"></image>
+        </view>
+    </view>
+    <audio src="{{src}}" id="myAudio"></audio>
+    <audio src="{{src2}}" id="myAudio2"></audio>
+>>>>>>> dev
 </view>
