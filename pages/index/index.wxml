@@ -6,7 +6,7 @@
         <button bindtap="translate">翻译</button>
     </view>
     <view class='e_a'>
-        <textarea value='{{froms}}' placeholder='请输入你要翻译的内容' maxlength="-1" auto-focus class='content' bindinput='change'>
+        <textarea value='{{froms}}' placeholder='请输入你要翻译的内容...' maxlength="-1" auto-focus class='content' bindinput='change'>
             <image src='../../images/laba.png' class='pron' bindtap="audioPlay2"></image>
         </textarea>
         <view class='content'>{{tos}}
